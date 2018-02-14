@@ -50,4 +50,5 @@ public class Tag {
         return '[' + tagName + ']';
     }
 
+    public String getRawString() { return tagName; }
 }
